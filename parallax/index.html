@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dusk to Dawn — a scrolling city</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<div class="scene" id="scene">
+  <div class="sky" id="sky"></div>
+  <div class="stars" id="stars"></div>
+  <div class="celestial sun" id="sun"></div>
+  <div class="celestial moon" id="moon"></div>
+  <div class="clouds layer-back" id="cloudsBack"></div>
+  <div class="clouds layer-front" id="cloudsFront"></div>
+  <div class="city city-far" id="cityFar"></div>
+  <div class="city city-near" id="cityNear"></div>
+
+  <div class="caption" id="caption">
+    <h1 id="captionText">Sunrise.</h1>
+  </div>
+
+  <div class="scroll-hint" id="scrollHint">scroll to watch the day pass ↓</div>
+</div>
+
+<div class="scroll-spacer" id="spacer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
