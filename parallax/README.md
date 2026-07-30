@@ -2,7 +2,7 @@
 
 A single scrolling scene: sunrise, morning, noon, golden hour, dusk, and a full starry night — all driven by scroll position, with layered parallax depth (sky, sun/moon arc, drifting clouds, far skyline, near skyline with lights that turn on as it gets dark).
 
-**[Live demo →](#)** *(add your GitHub Pages link here once deployed)*
+[Live demo →](#) https://dusk-to-dawn-parallax-day-night-sce.vercel.app/
 
 ## Features
 
@@ -51,12 +51,6 @@ Then just scroll — the page is 600vh tall by design; that height is what gives
 - `KEYFRAMES` in `script.js` controls the sky's color journey and captions — add, remove, or re-time entries to change the pacing of the day.
 - `STAR_COUNT`, cloud cluster positions, and the `buildCity()` calls at the bottom control density — increase building/window counts for a denser skyline (mind performance on lower-end devices).
 - The scroll spacer height (`600vh` in `style.css`) controls how much scrolling the full day takes — shorter feels snappier, taller feels more cinematic.
-
-## Deploying with GitHub Pages
-
-1. Push these three files to a GitHub repo (or upload via **Add file → Upload files**)
-2. Go to **Settings → Pages**, set the source to your main branch (root)
-3. Your live URL will be `https://<username>.github.io/<repo-name>/`
 
 ---
 
